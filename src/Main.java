@@ -8,6 +8,8 @@ public class Main {
         doAnimalStuff(yorkie,"slow");
         Dog retriver=new Dog("Labrador retriver",65,"Floppy","Swimmer");
         doAnimalStuff(retriver,"Fast");
+        Dog german=new Dog("German Shepherd",85,"Floppy","runner");
+        doAnimalStuff(german,"Fast");
         Fish fish=new Fish("Goldie",0.25,3,2);
         doAnimalStuff(fish,"fast");
 
